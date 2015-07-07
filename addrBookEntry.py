@@ -19,3 +19,7 @@ class EmplAddrBookEntry(AddrBookEntry):
 def test():
     one = AddrBookEntry('Peter',120)
     sub = EmplAddrBookEntry('John',110,'John@gmail.com')
+#output:
+#Created instance for: Peter
+#Created instance for: John
+#Created instance EmplAddrBookEntry.
