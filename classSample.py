@@ -21,5 +21,10 @@ def run_twice(animal):
     else:
         print('param type is incoreect,please make sure the param type is Animal')
     
-    
+def run_test(animal):
+    animal.run()
 	
+class ClassLikeAnimal(object):
+    def run(self):
+        print('ClassLikeAnimal is doing something')
+		
