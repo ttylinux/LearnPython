@@ -33,7 +33,7 @@ print('-------------------------------------')
 today = Time60(12,10)
 other = today+one
 print('one+today :',other)
-print('id of \'one+\'today:',id(other))
+print('id of \'one+today\':',id(other))
 print('-------------------------------------')
 
 print('today:',today)
