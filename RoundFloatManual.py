@@ -7,3 +7,4 @@ class RoundFloatManual(object):
         self.value = round(val,2)
     def __str__(self):
         return str(self.value)
+    __repr__ = __str__ # __repr__方法使用__str__的实现
